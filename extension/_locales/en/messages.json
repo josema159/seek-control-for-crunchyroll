@@ -1,0 +1,50 @@
+{
+  "extName": {
+    "message": "Seek Control for Crunchyroll",
+    "description": "Extension name."
+  },
+  "extDescription": {
+    "message": "Customize the seek duration of the arrow keys and add fine 1-second jumps with the comma/period and < > keys on Crunchyroll.",
+    "description": "Extension description shown in the browser's extension list."
+  },
+  "popupSubtitle": {
+    "message": "Customize the player's seek jumps.",
+    "description": "Subtitle under the popup title."
+  },
+  "arrowLabel": {
+    "message": "Arrow keys ← and →",
+    "description": "Label for the arrow-key seek input."
+  },
+  "fineLabel": {
+    "message": "Keys , . and < >",
+    "description": "Label for the fine seek input."
+  },
+  "secondsUnit": {
+    "message": "(seconds)",
+    "description": "Unit shown next to the input labels."
+  },
+  "saveButton": {
+    "message": "Save settings",
+    "description": "Save button text."
+  },
+  "resetButton": {
+    "message": "Restore defaults",
+    "description": "Reset button text."
+  },
+  "statusSaved": {
+    "message": "Settings saved.",
+    "description": "Shown after saving."
+  },
+  "statusReset": {
+    "message": "Defaults restored.",
+    "description": "Shown after restoring defaults."
+  },
+  "statusSaveError": {
+    "message": "Could not save settings.",
+    "description": "Shown when storage fails."
+  },
+  "statusInvalid": {
+    "message": "Enter values between 0.1 and 120 seconds.",
+    "description": "Validation error."
+  }
+}

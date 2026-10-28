@@ -1,0 +1,38 @@
+{
+  "extName": {
+    "message": "Control de saltos para Crunchyroll"
+  },
+  "extDescription": {
+    "message": "Personaliza la duración de los saltos con las flechas y agrega saltos precisos de 1 segundo con las teclas coma/punto y < > en Crunchyroll."
+  },
+  "popupSubtitle": {
+    "message": "Personaliza los saltos del reproductor."
+  },
+  "arrowLabel": {
+    "message": "Flechas ← y →"
+  },
+  "fineLabel": {
+    "message": "Teclas , . y < >"
+  },
+  "secondsUnit": {
+    "message": "(segundos)"
+  },
+  "saveButton": {
+    "message": "Guardar configuración"
+  },
+  "resetButton": {
+    "message": "Restaurar predeterminados"
+  },
+  "statusSaved": {
+    "message": "Configuración guardada."
+  },
+  "statusReset": {
+    "message": "Valores predeterminados restaurados."
+  },
+  "statusSaveError": {
+    "message": "No se pudo guardar la configuración."
+  },
+  "statusInvalid": {
+    "message": "Ingresa valores entre 0,1 y 120 segundos."
+  }
+}

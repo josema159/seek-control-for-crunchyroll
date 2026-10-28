@@ -1,0 +1,88 @@
+=====================================================================
+ENGLISH
+=====================================================================
+
+--- Name ---
+Seek Control for Crunchyroll
+
+--- Short description / Summary (max 132 characters on Chrome) ---
+Choose how far the arrow keys jump on Crunchyroll, and add precise 1-second jumps with the , . and < > keys.
+
+--- Detailed description (first 250 characters carry the key points) ---
+Choose how far the arrow keys jump on Crunchyroll (default 5 s) and add precise jumps with the , . or < > keys (default 1 s). Both values go from 0.1 to 120 seconds, apply instantly without reloading, and the extension collects no data.
+
+FEATURES
+• Arrow keys ← → jump the distance you choose (default: 5 seconds).
+• Fine jumps with , and . — or with < and > — (default: 1 second). Perfect for catching a line of dialogue you missed or finding the exact moment.
+• Works with US keyboards (, . or Shift + , .) and Spanish/Latin American keyboards (the dedicated <> key).
+• Any value from 0.1 to 120 seconds for each.
+• Changes apply instantly, no need to reload the episode.
+• Shortcuts are ignored while you type in search or comment boxes.
+• English and Spanish interface.
+
+HOW TO USE
+1. Open an episode on Crunchyroll.
+2. Click the extension icon to set your jump durations, then press Save.
+3. Use the arrow keys or the , . < > keys while watching.
+
+PRIVACY
+The extension stores only your two jump settings, locally in your browser. It collects no data, uses no tracking or analytics, and makes no network requests.
+
+This extension is not affiliated with, endorsed by, or sponsored by Crunchyroll.
+
+
+=====================================================================
+ESPAÑOL
+=====================================================================
+
+--- Nombre ---
+Control de saltos para Crunchyroll
+
+--- Descripción corta / Resumen (máx. 132 caracteres en Chrome) ---
+Elige cuánto saltan las flechas en Crunchyroll y agrega saltos precisos de 1 segundo con las teclas , . y < >.
+
+--- Descripción detallada (los primeros 250 caracteres llevan lo principal) ---
+Elige cuánto saltan las flechas en Crunchyroll (5 s por defecto) y agrega saltos precisos con las teclas , . o < > (1 s por defecto). Ambos valores van de 0,1 a 120 segundos, se aplican al instante sin recargar y la extensión no recopila datos.
+
+FUNCIONES
+• Las flechas ← → saltan la duración que elijas (predeterminado: 5 segundos).
+• Saltos precisos con , y . — o con < y > — (predeterminado: 1 segundo). Ideal para volver a escuchar un diálogo o encontrar el momento exacto.
+• Funciona con teclados en inglés (, . o Shift + , .) y con teclados en español/latinoamericanos (la tecla <>).
+• Cualquier valor entre 0,1 y 120 segundos para cada uno.
+• Los cambios se aplican al instante, sin recargar el episodio.
+• Los atajos se ignoran mientras escribes en la búsqueda o en los comentarios.
+• Interfaz en español e inglés.
+
+CÓMO USARLA
+1. Abre un episodio en Crunchyroll.
+2. Haz clic en el icono de la extensión, elige la duración de los saltos y pulsa Guardar.
+3. Usa las flechas o las teclas , . < > mientras miras.
+
+PRIVACIDAD
+La extensión solo guarda tus dos ajustes de salto, localmente en tu navegador. No recopila datos, no usa rastreo ni analíticas y no realiza conexiones de red.
+
+Esta extensión no está afiliada, respaldada ni patrocinada por Crunchyroll.
+
+
+=====================================================================
+CHROME WEB STORE — PRIVACY TAB (English only)
+=====================================================================
+
+--- Single purpose ---
+Lets the user customize how far the video jumps when pressing the arrow keys and the , . < > keys on Crunchyroll's video player.
+
+--- Permission justification: storage ---
+Saves the user's two seek-duration settings locally so they persist between sessions.
+
+--- Permission justification: host permission (*.crunchyroll.com) ---
+Needed to listen for the shortcut keys and change the video's playback position on Crunchyroll pages. The extension runs on no other site.
+
+--- Remote code ---
+No, I am not using remote code.
+
+--- Data usage ---
+Check none of the data categories. Certify all three statements (no selling, no unrelated use, no creditworthiness use).
+
+--- Category (suggested) ---
+Chrome: Entertainment (or "Tools")
+Firefox: Photos, Music & Videos

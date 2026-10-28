@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seek Control for Crunchyroll</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <h1 data-i18n="extName">Seek Control for Crunchyroll</h1>
+      <p data-i18n="popupSubtitle">Customize the player's seek jumps.</p>
+      <form id="settings-form">
+        <label for="arrow-seconds"><span data-i18n="arrowLabel">Arrow keys ← and →</span> <span class="unit" data-i18n="secondsUnit">(seconds)</span></label>
+        <input id="arrow-seconds" type="number" min="0.1" max="120" step="0.1" value="5" required>
+        <label for="fine-seconds"><span data-i18n="fineLabel">Keys , . and &lt; &gt;</span> <span class="unit" data-i18n="secondsUnit">(seconds)</span></label>
+        <input id="fine-seconds" type="number" min="0.1" max="120" step="0.1" value="1" required>
+        <button type="submit" data-i18n="saveButton">Save settings</button>
+        <button type="button" id="reset" class="secondary" data-i18n="resetButton">Restore defaults</button>
+      </form>
+      <p id="status" role="status" aria-live="polite"></p>    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
