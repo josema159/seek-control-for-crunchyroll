@@ -43,7 +43,7 @@ Temporary add-ons are removed when Firefox restarts.
   - `_locales/en`, `_locales/es`: English and Spanish translations.
   - `icons/`: toolbar and store icons (16, 32, 48, 128 px PNGs) plus `icon.svg`, the editable source.
 - `tools/make-icons.js`: regenerates the icons with Node.js (`node tools/make-icons.js extension/icons`).
-- `store-assets/`: store screenshots and listing text.
+- `store-assets/`: store screenshots.
 
 ## Packaging
 
