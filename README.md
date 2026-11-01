@@ -2,6 +2,8 @@
 
 Manifest V3 browser extension to customize the seek duration on Crunchyroll. Not affiliated with or endorsed by Crunchyroll.
 
+**Install:** [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/seek-control-for-crunchyroll/)
+
 ![Popup](store-assets/screenshots/store-2-popup-1280x800.png)
 
 ## Features

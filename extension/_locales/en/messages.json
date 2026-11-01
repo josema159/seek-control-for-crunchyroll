@@ -4,7 +4,7 @@
     "description": "Extension name."
   },
   "extDescription": {
-    "message": "Customize the seek duration of the arrow keys, add fine 1-second jumps with the comma/period and < > keys, and hold Space to play faster on Crunchyroll.",
+    "message": "Customize the arrow-key jumps on Crunchyroll, add fine 1-second jumps with the comma and period keys, and hold Space to play faster.",
     "description": "Extension description shown in the browser's extension list."
   },
   "popupSubtitle": {
