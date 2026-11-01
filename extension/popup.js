@@ -1,10 +1,11 @@
 "use strict";
 
-const DEFAULTS = { arrowSeconds: 5, fineSeconds: 1 };
+const DEFAULTS = { arrowSeconds: 5, fineSeconds: 1, holdRate: 2 };
 
 const form = document.querySelector("#settings-form");
 const arrowInput = document.querySelector("#arrow-seconds");
 const fineInput = document.querySelector("#fine-seconds");
+const holdSelect = document.querySelector("#hold-rate");
 const resetButton = document.querySelector("#reset");
 const status = document.querySelector("#status");
 let statusTimer = null;
@@ -40,6 +41,8 @@ localize();
 chrome.storage.local.get(DEFAULTS, (saved) => {
   arrowInput.value = saved.arrowSeconds;
   fineInput.value = saved.fineSeconds;
+  holdSelect.value = String(saved.holdRate);
+  if (!holdSelect.value) holdSelect.value = String(DEFAULTS.holdRate);
 });
 
 form.addEventListener("submit", (event) => {
@@ -47,6 +50,7 @@ form.addEventListener("submit", (event) => {
 
   const arrowSeconds = Number(arrowInput.value);
   const fineSeconds = Number(fineInput.value);
+  const holdRate = Number(holdSelect.value);
   const valid = [arrowSeconds, fineSeconds].every((n) => Number.isFinite(n) && n >= 0.1 && n <= 120);
 
   if (!valid) {
@@ -54,11 +58,12 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  save({ arrowSeconds, fineSeconds }, "statusSaved");
+  save({ arrowSeconds, fineSeconds, holdRate }, "statusSaved");
 });
 
 resetButton.addEventListener("click", () => {
   arrowInput.value = DEFAULTS.arrowSeconds;
   fineInput.value = DEFAULTS.fineSeconds;
+  holdSelect.value = String(DEFAULTS.holdRate);
   save({ ...DEFAULTS }, "statusReset");
 });

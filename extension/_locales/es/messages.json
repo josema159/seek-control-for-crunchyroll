@@ -3,7 +3,7 @@
     "message": "Control de saltos para Crunchyroll"
   },
   "extDescription": {
-    "message": "Personaliza la duración de los saltos con las flechas y agrega saltos precisos de 1 segundo con las teclas coma/punto y < > en Crunchyroll."
+    "message": "Personaliza la duración de los saltos con las flechas, agrega saltos precisos de 1 segundo con las teclas coma/punto y < >, y mantén la barra espaciadora para acelerar en Crunchyroll."
   },
   "popupSubtitle": {
     "message": "Personaliza los saltos del reproductor."
@@ -34,5 +34,11 @@
   },
   "statusInvalid": {
     "message": "Ingresa valores entre 0,1 y 120 segundos."
+  },
+  "holdLabel": {
+    "message": "Mantener barra espaciadora (velocidad)"
+  },
+  "holdOff": {
+    "message": "Desactivado"
   }
 }

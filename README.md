@@ -8,6 +8,7 @@ Manifest V3 browser extension to customize the seek duration on Crunchyroll. Not
 
 - Left and right arrows: configurable jump (default: 5 seconds).
 - `,` and `.` keys, or `<` and `>`: configurable fine jump (default: 1 second). Works with the dedicated `<>` key on Spanish keyboards and with Shift+`,` / Shift+`.` on US keyboards.
+- Hold Space to play faster while it is held, like YouTube (default 2x; 1.5x, 3x or off in the popup). A short tap still plays/pauses.
 - Settings are stored in the browser and apply without reloading the episode.
 - English and Spanish interface, chosen automatically from the browser's language (English is the default).
 - No external services, no dependencies, no data collection. See [PRIVACY.md](PRIVACY.md).

@@ -4,7 +4,7 @@
     "description": "Extension name."
   },
   "extDescription": {
-    "message": "Customize the seek duration of the arrow keys and add fine 1-second jumps with the comma/period and < > keys on Crunchyroll.",
+    "message": "Customize the seek duration of the arrow keys, add fine 1-second jumps with the comma/period and < > keys, and hold Space to play faster on Crunchyroll.",
     "description": "Extension description shown in the browser's extension list."
   },
   "popupSubtitle": {
@@ -46,5 +46,13 @@
   "statusInvalid": {
     "message": "Enter values between 0.1 and 120 seconds.",
     "description": "Validation error."
+  },
+  "holdLabel": {
+    "message": "Hold Space (speed)",
+    "description": "Label for the hold-Space speed selector."
+  },
+  "holdOff": {
+    "message": "Off",
+    "description": "Option that turns the hold-Space speed-up off."
   }
 }
